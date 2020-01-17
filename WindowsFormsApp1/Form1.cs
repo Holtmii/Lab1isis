@@ -319,6 +319,12 @@ namespace WindowsFormsApp1
 
             catch { };
         }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            Form form2 = new Form2();
+            form2.Show();
+        }
     }
     }
 
